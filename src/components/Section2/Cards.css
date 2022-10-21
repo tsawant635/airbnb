@@ -1,0 +1,13 @@
+
+  .card .MuiMobileStepper-root {
+    opacity: 0;
+    transition: all ease 1000ms;
+  }
+
+  .card:hover .MuiMobileStepper-root {
+    opacity:1
+  }
+
+  .card:hover .MuiMobileStepper-dotActive {
+    background-color: #fff
+  }
